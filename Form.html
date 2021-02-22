@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Contact Form</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Contact Form</h1>
+        <h2>Let us know how we can be of service using the form below.</h2>
+        <form>
+            <fieldset><legend>Tell Us About Yourself</legend>
+            <table cellpadding="5">
+                <tr>
+                    <td><label name="first-name">First Name: </lable></td>
+                    <td><input type="text" name="first-name"></td>
+                </tr>
+                <tr>
+                    <td><label name="last-name">Last Name: </label></td>
+                    <td><input type="text" name="last-name"></td>
+                </tr>
+                <tr>
+                    <td><label name="email">Email: </lable></td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label name="phone-number">Phone Number: </label></td>
+                    <td><input type="number" name="phone-number"></td>
+                </tr>
+                <tr>
+                    <td><label name="time-call">Best Time to Call: </label></td>
+                    <td><input type="radio" name="time-call" value="am">AM
+                        <input type="radio" name="time-call" value="pm">PM
+                    </td>
+                </tr>
+                <tr>
+                    <td><label name="budget">Project Budget: </label></td>
+                    <td>
+                        <select>
+                            <option>Choose your budget</option>
+                            <option>€250-€500</option>
+                            <option>€500-€2000</option>
+                            <option>€2000-€3000</option>
+                            <option>€3000-€5000</option>
+                            <option>€5000-€8000</option>
+                            <option>more than €8000</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label name="project-type">Project Type: </label></td>
+                    <td><input type="checkbox" name="project-type" value="Design">Design
+                        <input type="checkbox" name="project-type" value="Development">Development
+                        <input type="checkbox" name="project-type" value="Strategy">Strategy
+                    </td>
+                </tr>
+                <tr>
+                    <td><label name="info">Additional Information: </label></td>
+                    <td><textarea type="text" name="info" rows="3 col="20>Enter your infomation here!</textarea></td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <input type="submit" class="submit" name="submit" value="SUBMIT"></td>
+                </tr>
+            </table>
+            </fieldset>
+        </form>
+    </body>
+
+</html>
